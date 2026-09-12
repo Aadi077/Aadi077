@@ -19,11 +19,6 @@ CS student at Purdue, currently a software engineer intern at NetApp. I spend mo
   <img src="https://skillicons.dev/icons?i=python,java,c,cs,ts,js,r,nodejs,docker,kubernetes,nginx,vercel,git&theme=dark" />
 </p>
 
-<!-- ===== 3D CONTRIBUTION CALENDAR (regenerated daily by the workflow) ===== -->
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-</p>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" />
 </p>
