@@ -1,28 +1,29 @@
-name: GitHub-Profile-3D-Contrib
+<!-- ===== BANNER ===== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Aadi%20Dhawan&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=CS%20@%20Purdue%20•%20SWE%20Intern%20@%20NetApp&descSize=18&descAlignY=55&animation=fadeIn" />
+</p>
 
-on:
-  schedule:
-    - cron: "0 8 * * *"   # once a day, 3am Central
-  workflow_dispatch:      # lets you run it manually from the Actions tab
+<!-- ===== SOCIALS ===== -->
+<p align="center">
+  <a href="https://linkedin.com/in/aadidhawan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:aadi.a.dhawan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
-permissions:
-  contents: write
+---
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
-    steps:
-      - uses: actions/checkout@v5
-      - uses: yoshi389111/github-profile-3d-contrib@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          if git commit -m "generated"; then
-            git push
-          fi
+CS student at Purdue, currently a software engineer intern at NetApp. I spend most of my time somewhere between infrastructure, ML, and markets — real-time data pipelines, trading systems, and agents. I like problems where the thing has to actually stay up and the output has to actually be right. Most of what's here is me figuring something out in public.
+
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,c,cs,ts,js,r,nodejs,docker,kubernetes,nginx,vercel,git&theme=dark" />
+</p>
+
+<!-- ===== 3D CONTRIBUTION CALENDAR (regenerated daily by the workflow) ===== -->
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" />
+</p>
